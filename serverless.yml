@@ -12,6 +12,7 @@ provider:
         - s3:PutObject
       Resource:
         - "arn:aws:s3:::*"
+        - "arn:aws:s3:::*/"
 
 functions:
   optimize:
